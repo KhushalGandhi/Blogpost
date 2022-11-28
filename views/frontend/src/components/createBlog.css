@@ -1,5 +1,5 @@
 body {
-  background: url('../assets/images/background.png') no-repeat center center fixed
+  background-color: white ; 
 }
 Form {
   position: relative;

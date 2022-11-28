@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import React ,{ useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import './createBlog.css'
+import { TiWorldOutline } from 'react-icons/ti'
 
 const CreateBlog = () => {
   const [title, setTitle] = useState('')
